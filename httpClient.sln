@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "httpClient", "httpClient\httpClient.csproj", "{827AB63F-FF1A-4E9A-A06F-0FBA286225EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "httpWebApi", "httpWebApi\httpWebApi.csproj", "{53A92933-DC1A-43B4-8C46-E3B389542A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "httpWebApi.Tests", "httpWebApi.Tests\httpWebApi.Tests.csproj", "{FBC2C181-93FC-45B9-A807-B68D78F490C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +17,13 @@ Global
 		{827AB63F-FF1A-4E9A-A06F-0FBA286225EB}.Debug|x86.Build.0 = Debug|x86
 		{827AB63F-FF1A-4E9A-A06F-0FBA286225EB}.Release|x86.ActiveCfg = Release|x86
 		{827AB63F-FF1A-4E9A-A06F-0FBA286225EB}.Release|x86.Build.0 = Release|x86
+		{53A92933-DC1A-43B4-8C46-E3B389542A68}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{53A92933-DC1A-43B4-8C46-E3B389542A68}.Debug|x86.Build.0 = Debug|Any CPU
+		{53A92933-DC1A-43B4-8C46-E3B389542A68}.Release|x86.ActiveCfg = Release|Any CPU
+		{53A92933-DC1A-43B4-8C46-E3B389542A68}.Release|x86.Build.0 = Release|Any CPU
+		{FBC2C181-93FC-45B9-A807-B68D78F490C3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FBC2C181-93FC-45B9-A807-B68D78F490C3}.Debug|x86.Build.0 = Debug|Any CPU
+		{FBC2C181-93FC-45B9-A807-B68D78F490C3}.Release|x86.ActiveCfg = Release|Any CPU
+		{FBC2C181-93FC-45B9-A807-B68D78F490C3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
